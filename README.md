@@ -60,7 +60,7 @@ Write your solution in `anagram.rb`.
 ```
 
 Two arrays are equal if they contain the same elements, in the same order.
-Remember that you can `.sort` an arrays elements. This will help in your
+Remember that you can `.sort` an array's elements. This will help in your
 comparison:
 
 ```ruby
