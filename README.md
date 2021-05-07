@@ -1,8 +1,8 @@
-# Anagram Detector Lab
+# Bonus: Anagram Detector Lab
 
 ## Learning Goals
 
-- Build a class with an initialize method
+- Build a class that uses an initialize method
 - Use an attribute accessor macro to make an attribute available to a class's
   methods
 
