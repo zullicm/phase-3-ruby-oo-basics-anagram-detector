@@ -5,6 +5,7 @@
 - Build a class that uses an initialize method
 - Use an attribute accessor macro to make an attribute available to a class's
   methods
+- Practice using Ruby Array methods
 
 ## Description
 
