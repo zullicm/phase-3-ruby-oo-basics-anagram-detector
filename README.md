@@ -1,18 +1,20 @@
 # Anagram Detector Lab
 
-## Objectives
+## Learning Goals
 
-1.  Build a class with an initialize method and use an `attr_accessor`
+- Build a class with an initialize method
+- Use an attribute accessor macro to make an attribute available to a class's
+  methods
 
 ## Description
 
 You will write a program that, given a word and a list of possible
 [anagrams][anagrams], selects the correct one(s).
 
-Your class, `Anagram` should take a word on initialization, and instances should
-respond to a `match` method that takes an array of possible anagrams. It should
-return all matches in an array. If no matches exist, it should return an empty
-array.
+Your class, `Anagram` should take a word on initialization; instances should
+respond to a `match` instance method that takes an array of possible anagrams.
+It should return all matches in an array. If no matches exist, it should return
+an empty array.
 
 In other words, given: `"listen"` and `%w(enlists google inlets banana)` the
 program should return `["inlets"]`.
@@ -30,15 +32,12 @@ instantiating an array with items in it!
 ## Instructions
 
 Once again, this lab is test-driven. Run the test suite to get started. Remember
-that you can use the `learn/rspec --fail-fast` option to run the tests only up
-until the first failure, in order to work progressively through the tests.
+that you can use the `learn --fail-fast` option to run the tests only up until
+the first failure, in order to work progressively through the tests.
 
 Write your solution in `anagram.rb`.
 
 **Hints:**
-
-- Use an `attr_accessor` to create a setter and getter method for the word that
-  the Anagram class instances are initialized with.
 
 - How will you determine if one word is an anagram for another?
 
@@ -74,6 +73,3 @@ comparison:
 
 [anagrams]: http://www.dictionary.com/browse/anagram
 [array_shortcut]: http://stackoverflow.com/questions/1274675/ruby-what-does-warray-mean
-
-
-
