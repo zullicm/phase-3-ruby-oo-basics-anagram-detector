@@ -51,9 +51,15 @@ takes as an argument. You will compare each word of that array to the word
 that the Anagram class is initialized with.
 
 To determine one word is an anagram of another word, try determining if they are
-composed of the same letters. Remember that you can split a word into an array
-of letters using `some_word.split("")`. You can compare two arrays using the
-`==`. For example:
+composed of the same letters. You can use the `#chars` method on a string to
+get an array of its individual letters:
+
+```rb
+"hello".chars
+# ["h", "e", "l", "l", "o"]
+```
+
+You can compare two arrays using the `==`. For example:
 
 ```ruby
 [1, 2, 3] == [1, 2, 3]
